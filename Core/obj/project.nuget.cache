@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SHku1xSfc4E=",
+  "dgSpecHash": "8CysnM9+z2w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanan\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.3\\microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
     "C:\\Users\\kanan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.3\\microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",

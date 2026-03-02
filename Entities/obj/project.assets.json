@@ -1086,11 +1086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1111,8 +1111,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\Core\\Core.csproj"
+            "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\Core\\Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Egi3hIm8Gkg=",
+  "dgSpecHash": "RG/sNFicug4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\FINAL PROJECT\\Meetzy API\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\kanan\\OneDrive\\Desktop\\Documentation\\-- TEMP --\\Meetzy API\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kanan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
