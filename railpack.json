@@ -1,0 +1,4 @@
+{
+  "build": "dotnet publish WebAPI/WebAPI.csproj -c Release -o out",
+  "start": "dotnet out/WebAPI.dll"
+}
