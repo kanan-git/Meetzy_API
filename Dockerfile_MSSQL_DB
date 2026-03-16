@@ -1,0 +1,22 @@
+# Base: SQL Server
+FROM mcr.microsoft.com/mssql/server:2022-latest
+
+ENV ACCEPT_EULA=Y
+ENV SA_PASSWORD=YourStrong!Passw0rd
+
+# Copy your .bak file and backend
+WORKDIR /app
+COPY . /app
+
+# Restore the .bak file
+RUN /opt/mssql/bin/sqlservr & \
+    sleep 20 && \
+    /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong!Passw0rd -Q "RESTORE DATABASE [MeetzyDB] FROM DISK = '/app/MeetzyDB_backup.bak' WITH MOVE 'MeetzyDB' TO '/var/opt/mssql/data/MeetzyDB.mdf', MOVE 'MeetzyDB_log' TO '/var/opt/mssql/data/MeetzyDB_log.ldf'"
+
+# Expose ports
+EXPOSE 1433 8080
+
+# Start SQL Server in background and your backend
+CMD /opt/mssql/bin/sqlservr & \
+    sleep 20 && \
+    dotnet WebAPI/WebAPI.dll
